@@ -1,0 +1,9 @@
+$Unit 1
+and : aor,aur,
+animal : janwar,
+dawn : subha,
+my : mera,
+$Unit 2
+hate : nafrat,
+love : piyar,muhabbat,
+year : saal,

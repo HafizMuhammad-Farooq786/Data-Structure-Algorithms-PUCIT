@@ -1,0 +1,13 @@
+﻿Build started 2/1/2017 7:58:32 AM.
+     1>Project "D:\C++ Programmes\DSA\AVL\AVL\AVL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\c++ programmes\dsa\avl\avl\source.cpp(38): error C2955: 'AVLNode' : use of class template requires template argument list
+                 d:\c++ programmes\dsa\avl\avl\source.cpp(8) : see declaration of 'AVLNode'
+                 d:\c++ programmes\dsa\avl\avl\source.cpp(179) : see reference to class template instantiation 'AVLTree<char>' being compiled
+     1>Done Building Project "D:\C++ Programmes\DSA\AVL\AVL\AVL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.44

@@ -1,0 +1,59 @@
+﻿Build started 12/12/2016 12:34:21 PM.
+     1>Project "D:\C++ Programmes\DSA\ATM\ATM\ATM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DDLIST.cpp Source.cpp
+         Source.cpp
+     1>d:\c++ programmes\dsa\atm\atm\doublelist.h(27): error C2664: 'Node<T>::Node(const Node<T> &)' : cannot convert argument 1 from 'int' to 'Costumer'
+                 with
+                 [
+                     T=Costumer
+                 ]
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+                 d:\c++ programmes\dsa\atm\atm\doublelist.h(25) : while compiling class template member function 'DDLIST<Costumer>::DDLIST(void)'
+                 d:\c++ programmes\dsa\atm\atm\source.cpp(66) : see reference to function template instantiation 'DDLIST<Costumer>::DDLIST(void)' being compiled
+                 d:\c++ programmes\dsa\atm\atm\source.cpp(26) : see reference to class template instantiation 'DDLIST<Costumer>' being compiled
+     1>d:\c++ programmes\dsa\atm\atm\doublelist.h(28): error C2664: 'Node<T>::Node(const Node<T> &)' : cannot convert argument 1 from 'int' to 'Costumer'
+                 with
+                 [
+                     T=Costumer
+                 ]
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+         DDLIST.cpp
+     1>d:\c++ programmes\dsa\atm\atm\ddlist.cpp(6): error C2955: 'DDLIST' : use of class template requires template argument list
+                 d:\c++ programmes\dsa\atm\atm\doublelist.h(21) : see declaration of 'DDLIST'
+     1>d:\c++ programmes\dsa\atm\atm\ddlist.cpp(13): error C2244: 'DDLIST<T>::addAtstart' : unable to match function definition to an existing declaration
+                 d:\c++ programmes\dsa\atm\atm\doublelist.h(49) : see declaration of 'DDLIST<T>::addAtstart'
+                 definition
+                 'void DDLIST::addAtstart(T)'
+                 existing declarations
+                 'void DDLIST<T>::addAtstart(T)'
+     1>d:\c++ programmes\dsa\atm\atm\ddlist.cpp(23): error C2244: 'DDLIST<T>::addAtlast' : unable to match function definition to an existing declaration
+                 d:\c++ programmes\dsa\atm\atm\doublelist.h(50) : see declaration of 'DDLIST<T>::addAtlast'
+                 definition
+                 'void DDLIST::addAtlast(T)'
+                 existing declarations
+                 'void DDLIST<T>::addAtlast(T)'
+     1>d:\c++ programmes\dsa\atm\atm\ddlist.cpp(37): error C2244: 'DDLIST<T>::delfirst' : unable to match function definition to an existing declaration
+                 d:\c++ programmes\dsa\atm\atm\doublelist.h(51) : see declaration of 'DDLIST<T>::delfirst'
+                 definition
+                 'T DDLIST::delfirst(void)'
+                 existing declarations
+                 'T DDLIST<T>::delfirst(void)'
+     1>d:\c++ programmes\dsa\atm\atm\ddlist.cpp(51): error C2244: 'DDLIST<T>::dellast' : unable to match function definition to an existing declaration
+                 d:\c++ programmes\dsa\atm\atm\doublelist.h(52) : see declaration of 'DDLIST<T>::dellast'
+                 definition
+                 'T DDLIST::dellast(void)'
+                 existing declarations
+                 'T DDLIST<T>::dellast(void)'
+     1>d:\c++ programmes\dsa\atm\atm\ddlist.cpp(70): error C2244: 'DDLIST<T>::deleteNode' : unable to match function definition to an existing declaration
+                 d:\c++ programmes\dsa\atm\atm\doublelist.h(53) : see declaration of 'DDLIST<T>::deleteNode'
+                 definition
+                 'bool DDLIST::deleteNode(T)'
+                 existing declarations
+                 'bool DDLIST<T>::deleteNode(T)'
+         Generating Code...
+     1>Done Building Project "D:\C++ Programmes\DSA\ATM\ATM\ATM.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.66
